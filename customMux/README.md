@@ -7,7 +7,7 @@ the **ListenAndServe** function on http . **math/rand** is the library that take
 generating random numbers. This basic foundation is going to be helpful for us when we
 discuss adding authentication to our API server.
 
-*** Running The Code ***
+### Running The Code 
 
 > run the code snippet
 
