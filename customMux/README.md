@@ -6,3 +6,21 @@ In the main function, we are creating an instance of our CustomServeMux and pass
 the **ListenAndServe** function on http . **math/rand** is the library that takes care of
 generating random numbers. This basic foundation is going to be helpful for us when we
 discuss adding authentication to our API server.
+
+*** Running The Code ***
+
+> run the code snippet
+
+```shell
+$ go run customMux.go
+```
+> fire up the curl
+
+```shell
+$ curl http://127.0.0.1:8000
+```
+> the response is
+
+```shell
+$ Your random number is: 0.066432
+```
