@@ -15,5 +15,6 @@ $ go mod github.com/imtheknown/example
 This command will create go.mod file which both defines projects requirements and locks dependencies to their correct versions like package.json you may have already used.
 The primary motivation for Go modules was to improve the experience of using (that is, adding a dependency on) code written by other developers.
 
-On a more general note, the purpose of ```shell $ go mod tidy ```is to also add any dependencies needed for other combinations of OS, architecture, and build tags. Make sure to run this before every release.
+On a more general note, the purpose of ``` go mod tidy ```is to also add any dependencies needed for other combinations of OS, architecture, and build tags. Make sure to run this before every release.
 
+Commands like go build or go test will automatically download all the missing dependencies though you can do this explicitly with go mod download to pre-fill local caches which may prove useful in CI.
